@@ -6,7 +6,7 @@
 
     <groupId>org.appxi</groupId>
     <artifactId>jcefmaven-aio</artifactId>
-    <version>22.05.14</version>
+    <version>22.06.11</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,11 +25,6 @@
                     <artifactId>junit</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>me.friwi</groupId>
-            <artifactId>${jcef-natives.platform}</artifactId>
-            <version>jcef-0aee584+cef-100.0.14+g4e5ba66+chromium-100.0.4896.75</version>
         </dependency>
     </dependencies>
 

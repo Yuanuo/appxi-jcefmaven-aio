@@ -11,3 +11,7 @@
 *.ipr
 *.iws
 .idea/
+
+# Misc
+/jcef
+/jcef-bundle
