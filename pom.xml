@@ -6,7 +6,7 @@
 
     <groupId>org.appxi</groupId>
     <artifactId>jcefmaven-aio</artifactId>
-    <version>22.06.11</version>
+    <version>23.11.05</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>me.friwi</groupId>
             <artifactId>jcefmaven</artifactId>
-            <version>100.0.14.2</version>
+            <version>116.0.19.1</version>
             <exclusions>
                 <exclusion>
                     <groupId>junit</groupId>
@@ -33,12 +33,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.10.1</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
+                <version>3.2.2</version>
                 <configuration>
                     <archive>
                         <manifestEntries>

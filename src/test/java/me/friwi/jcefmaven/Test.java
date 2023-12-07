@@ -24,6 +24,8 @@ import java.awt.event.FocusEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This is a simple example application using JCEF.
@@ -67,6 +69,9 @@ public class Test extends JFrame {
             }
         });
 
+        final List<String> mirrors = new ArrayList<>(builder.getMirrors());
+        mirrors.add(0, "https://github.moeyy.xyz/https://github.com/jcefmaven/jcefmaven/releases/download/{mvn_version}/jcef-natives-{platform}-{tag}.jar");
+        builder.setMirrors(mirrors);
         // (1) The entry point to JCEF is always the class CefApp. There is only one
         //     instance per application and therefore you have to call the method
         //     "getInstance()" instead of a CTOR.
